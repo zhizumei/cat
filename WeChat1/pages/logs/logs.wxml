@@ -1,0 +1,28 @@
+<swiper autoplay='true' interval='3000' duration='2000' circular="true" indicator-dots='true'>
+    <swiper-item><image src='/pages/imgs/cccs/1.png'/></swiper-item>
+    <swiper-item><image src='/pages/imgs/cccs/2.png'/></swiper-item>
+    <swiper-item><image src='/pages/imgs/cccs/3.png'/></swiper-item>
+</swiper>
+
+<view class='menus'>
+     <view class='menu2'>
+          <view class='menu-item'>
+               <image src='/pages/imgs/cccs/cc1.png'/>
+               <view>{{menus[0]}}</view>
+          </view>
+          <view class='menu-item'>
+               <image src="/pages/imgs/cccs/cc2.png"/>
+               <view>{{menus[1]}}</view>
+          </view>
+     </view>
+     <view class='menu2'>
+          <view class='menu-item'>
+               <image src="/pages/imgs/cccs/CC3.png"/>
+               <view>{{menus[2]}}</view>
+          </view>
+          <view class='menu-item'>
+               <image src="/pages/imgs/cccs/cc4.png"/>
+               <view>{{menus[3]}}</view>
+          </view>
+     </view>
+</view>
